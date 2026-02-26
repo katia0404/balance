@@ -39,22 +39,22 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "УСЛУГИ",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Наши работы",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "ИИ‑телефонный менеджер",
     url: "#roadmap",
   },
   {
@@ -94,8 +94,8 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Как вы теряете до 40% выручки каждый день",
+    text: "Узнайте правду о своём отделе продаж",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap1,
@@ -103,46 +103,42 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Проблема",
+    text: "Ошибки в звонках не фиксируются, не считаются и не исправляются системно. Как вы теряете до 40% выручки каждый день — и даже не знаете об этом",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    title: "Индивидуальная настройка чат-бота",
+    text: "Позвольте пользователям настраивать внешний вид и поведение чат-бота, делая взаимодействие более вовлечённым и интересным.",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    title: "Интеграция с внешними сервисами",
+    text: "Подключите чат-бота к внешним источникам данных — например, к погодным и новостным сервисам, чтобы давать более точные и полезные рекомендации.",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap4,
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
-
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Внедрили СРМ, после чего компания выросла до 200+ человек",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "После внедрения Ройстата и amoCRM увеличилась прибыль на 25%",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Внедрили CRM и сократили время обработки заявок до 15 минут",
   },
 ];
 
@@ -244,16 +240,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Внедрение amoCRM и Bitrix24",
+    text: "Автоматизируйте продажи и маркетинг с помощью CRM-системы, чтобы повысить лояльность клиентов и увеличить продажи",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Внедрение аналитики Roistat",
+    text: "Настройка веб-аналитики и сквозной аналитики для контроля рекламы, конверсий и эффективности каналов привлечения",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +257,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Сопровождение CRM и техподдержка",
+    text: "Регулярная поддержка и доработка CRM, обучение сотрудников, решение сбоев и консультации по работе с системой",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Сопровождение CRM и техподдержка",
+    text: "Обслуживание и развитие вашей CRM, обновления, настройка отчётов и помощь в решении повседневных задач",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +274,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Боты и AI",
+    text: "Разработка чат-ботов и внедрение решений на основе искусственного интеллекта для автоматизации общения с клиентами",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Помощь в телефонии",
+    text: "Настройка и интеграция телефонии с CRM, облачная АТС, запись звонков и аналитика по входящим и исходящим",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

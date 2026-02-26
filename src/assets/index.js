@@ -1,4 +1,4 @@
-import brainwave from "./brainwave.svg";
+import brainwave from "./brainwave.svg"; 
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -20,6 +20,7 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import heroCapsule from "./hero-capsule.png";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -98,6 +99,7 @@ export {
   sliders04,
   loading,
   background,
+  heroCapsule,
   curve,
   robot,
   heroBackground,
