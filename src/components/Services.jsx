@@ -10,9 +10,7 @@ const Services = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
-        <Heading
-          title="Посмотрите примеры наших работ и убедитесь в качестве нашей работы"
-        />
+        <Heading title="БУЛАТ ИМПОРТ" />
 
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
@@ -27,21 +25,19 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Примеры работ</h4>
+              <h4 className="h4 mb-4">БУЛАТ ИМПОРТ</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Посмотрите примеры наших работ и убедитесь в качестве нашей работы
+                Благодаря автодозвонам, менеджеры стали чаще дозваниваться до
+                клиентов, что привело к значительному увеличению продаж.
+                <br />
+                <br />
+                Интеграция телефонии и мессенджеров сделала общение с клиентами
+                быстрее и удобнее для всех сторон.
+                <br />
+                <br />
+                Руководство теперь видит полную картину по продажам и может
+                легко управлять процессом.
               </p>
-              <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
-                  <li
-                    key={index}
-                    className="flex items-start py-4 border-t border-n-6"
-                  >
-                    <img width={24} height={24} src={check} />
-                    <p className="ml-4">{item}</p>
-                  </li>
-                ))}
-              </ul>
             </div>
 
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />

@@ -78,9 +78,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Благодаря автодозвонам, менеджеры стали чаще дозваниваться до клиентов, что привело к значительному увеличению продаж.",
+  "Интеграция телефонии и мессенджеров сделала общение с клиентами быстрее и удобнее для всех сторон.",
+  "Руководство теперь видит полную картину по продажам и может легко управлять процессом.",
 ];
 
 export const brainwaveServicesIcons = [
@@ -242,6 +242,7 @@ export const benefits = [
     id: "0",
     title: "Внедрение amoCRM и Bitrix24",
     text: "Автоматизируйте продажи и маркетинг с помощью CRM-системы, чтобы повысить лояльность клиентов и увеличить продажи",
+    href: "/services/amocrm-bitrix24",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -250,6 +251,7 @@ export const benefits = [
     id: "1",
     title: "Внедрение аналитики Roistat",
     text: "Настройка веб-аналитики и сквозной аналитики для контроля рекламы, конверсий и эффективности каналов привлечения",
+    href: "/services/roistat",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
